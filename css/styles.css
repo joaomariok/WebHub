@@ -57,7 +57,7 @@ body {
 	color: #eeeeee;
 }*/
 
-@media (max-width: 1028px) {
+@media (max-width: 768px) {
 	#titulo {
 		font-size: 2rem;
 	}
