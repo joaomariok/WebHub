@@ -20,6 +20,7 @@ body {
 	background-color: #eeeeee;
 	color: #222831;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
 }
 
 .item-ico {
@@ -52,6 +53,20 @@ body {
 }
 
 /*.nav-pills > a:active {
-	background-color: #222831; /* #00adb5 
+	background-color: #222831; /* #00adb5
 	color: #eeeeee;
 }*/
+
+@media (max-width: 1028px) {
+	#titulo {
+		font-size: 2rem;
+	}
+
+	#lists {
+	  padding: 3% 3%;
+	}
+
+  body {
+    font-size: 0.9rem;
+	}
+}
