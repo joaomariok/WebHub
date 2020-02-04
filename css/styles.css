@@ -95,8 +95,12 @@ body {
 		font-size: 2rem;
 	}
 
-	.lists {
+	#lists {
 		padding: 3% 3%;
+	}
+	
+	#footer {
+		padding: 7% 12%;
 	}
 
 	body {
