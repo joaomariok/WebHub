@@ -91,11 +91,11 @@ body {
 /* RESPONSIVIDADE */
 
 @media (max-width: 768px) {
-	#titulo {
+	.titulo {
 		font-size: 2rem;
 	}
 
-	#lists {
+	.lists {
 		padding: 3% 3%;
 	}
 
