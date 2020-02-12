@@ -40,6 +40,12 @@ body {
 .item-txt {
 	padding-left: 10px;
 	font-weight: bold;
+	color: #222831;
+}
+
+.item-txt:hover {
+	text-decoration: none;
+	color: #00adb5;
 }
 
 .nav-link {
@@ -48,18 +54,22 @@ body {
 
 .list-group-item {
 	background-color: #eeeeee;
-	color: #222831;
 }
 
 .nav-pills > a {
 	background-color: #eeeeee;
 	color: #222831;
-}
-
+	}
+	
 .nav-pills > a:hover {
 	background-color: #eeeeee;
-	color: #393e46;
-}
+	color: #00adb5;
+	}
+	
+.nav-pills .nav-link.active {
+	background-color: #00adb5;
+	color: #eeeeee;
+	}
 
 /* RODAPE */
 
