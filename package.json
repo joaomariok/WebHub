@@ -1,0 +1,29 @@
+{
+  "name": "webhub",
+  "version": "1.0.0",
+  "description": "\u0016Hub for useful websites links. Less tabs in your browser in no time.",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaomariok/webhub.git"
+  },
+  "author": "João Magalhães",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaomariok/webhub/issues"
+  },
+  "homepage": "https://github.com/joaomariok/webhub#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "pstree.remy": "^1.1.0"
+  }
+}
